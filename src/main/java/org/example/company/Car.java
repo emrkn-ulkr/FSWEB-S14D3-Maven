@@ -48,7 +48,7 @@ public class Car {
         return "the car is accelerating";
     }
 
-    public String breake() {
+    public String brake() {
         System.out.println(getClass().getSimpleName());
         return "the car is braking";
     }

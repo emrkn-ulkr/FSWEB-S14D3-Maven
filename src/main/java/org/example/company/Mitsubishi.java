@@ -19,7 +19,7 @@ public class Mitsubishi extends Car{
     }
 
     @Override
-    public String breake() {
+    public String brake() {
         String msg = getClass().getSimpleName()+"the car is braking";
         return msg;
     }

@@ -18,7 +18,7 @@ public class Holden extends Car{
     }
 
     @Override
-    public String breake() {
+    public String brake() {
         System.out.println(getClass().getSimpleName());
         return "the car is braking";
     }

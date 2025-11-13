@@ -17,7 +17,7 @@ public class Ford extends Car {
         return "the car is accelerating";
     }
     @Override
-    public String breake() {
+    public String brake() {
         System.out.println(getClass().getSimpleName());
         return "the car is braking";
     }

@@ -14,7 +14,7 @@ public class Main {
 
         System.out.println(car.accelerate());
 
-        System.out.println(car.breake());
+        System.out.println(car.brake());
 
         Car mitsubishi = new Mitsubishi(6, "Outlander VRX 4WD");
 
@@ -22,7 +22,7 @@ public class Main {
 
         System.out.println(mitsubishi.accelerate());
 
-        System.out.println(mitsubishi.breake());
+        System.out.println(mitsubishi.brake());
 
         Car ford = new Ford(6, "Ford Falcon");
 
@@ -30,7 +30,7 @@ public class Main {
 
         System.out.println(ford.accelerate());
 
-        System.out.println(ford.breake());
+        System.out.println(ford.brake());
 
         Car holden = new Holden(6, "Holden Commodore");
 
@@ -38,7 +38,7 @@ public class Main {
 
         System.out.println(holden.accelerate());
 
-        System.out.println(holden.breake());
+        System.out.println(holden.brake());
 
     }
 }
